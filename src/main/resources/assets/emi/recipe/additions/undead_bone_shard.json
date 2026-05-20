@@ -1,0 +1,7 @@
+{
+  "type": "emi:info",
+  "stacks": [
+    "item:bonfires:undead_bone_shard"
+  ],
+  "text": "emi.info.bonfires_ex.undead_bone_shard"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 1000,
+  "experience": 1.0,
+  "group": "bonfires",
+  "ingredient": {
+    "item": "bonfires:coiled_sword"
+  },
+  "result": {
+    "id": "bonfires:coiled_sword_fragment"
+  }
+}

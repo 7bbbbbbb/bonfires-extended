@@ -1,0 +1,7 @@
+{
+  "type": "emi:info",
+  "stacks": [
+    "item:bonfires:coiled_sword"
+  ],
+  "text": "emi.info.bonfires_ex.coiled_sword"
+}

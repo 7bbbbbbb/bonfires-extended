@@ -1,0 +1,16 @@
+{
+  "advancements.adventure.sleep_in_bed.description": "Sleep in a bed to skip the night",
+  "block.minecraft.spawn.not_valid": "You have no spawn point set or charged respawn anchor, or it was obstructed",
+  "block.bonfires_ex.bonfire_place_fail": "You can't place a Bonfire here.",
+  "emi.info.bonfires_ex.ash_pile": "Obtained sometimes from mobs when burnt to death.",
+  "emi.info.bonfires_ex.coiled_sword": "Place it on top of a Pile of Bone and Ash to create a new Bonfire.",
+  "emi.info.bonfires_ex.coiled_sword_fragment": "Hold the item and [Use] to return to the last Bonfire you rested in. Up to 4 times.",
+  "emi.info.bonfires_ex.titanite_any": "Place it in the inventory to Reinforce weapons in a Bonfire.",
+  "emi.info.bonfires_ex.undead_bone_shard": "Obtained when a bonfire is destroyed by an explosion. Place it in the inventory to Reinforce an Estus Flask in a Bonfire.",
+  "emi.info.bonfires_ex.homeward_bone": "Hold the item and [Use] to return to the last Bonfire you rested in.",
+  "emi.info.bonfires_ex.estus_shard": "Hold the item and [Use] to increase the number of uses of an Estus Flask placed in the inventory.",
+  "emi.info.bonfires_ex.estus_flask": "Consume it to instantly regain health. Rest in a Bonfire to replenish its uses.",
+  "text.config.bonfires_ex_config.option.disableBedSpawn": "Disable Bed Spawn Point",
+  "text.config.bonfires_ex_config.option.disableInvalidBonfiresCheck": "Disable Check for Invalid Bonfires",
+  "text.config.bonfires_ex_config.option.disableInvalidBonfiresCheck.tooltip": "Experimental! Drastically reduce TPS usage in the Travel Menu."
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "bonfires:coiled_sword_fragment"
+  },
+  "base": {
+    "item": "minecraft:diamond_sword"
+  },
+  "result": {
+    "count": 1,
+    "id": "bonfires:coiled_sword"
+  },
+  "template": {
+    "item": "minecraft:fire_charge"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "values": [
+    "#minecraft:is_badlands",
+    "#minecraft:is_forest",
+    "#minecraft:is_hill",
+    "#minecraft:is_jungle",
+    "#minecraft:is_mountain",
+    "#minecraft:is_savanna",
+    "#minecraft:is_taiga",
+    {
+      "id": "#c:is_badlands",
+      "required": false
+    },
+    {
+      "id": "#c:is_birch_forest",
+      "required": false
+    },
+    {
+      "id": "#c:is_dark_forest",
+      "required": false
+    },
+    {
+      "id": "#c:is_desert",
+      "required": false
+    },
+    {
+      "id": "#c:is_flower_forest",
+      "required": false
+    },
+    {
+      "id": "#c:is_forest",
+      "required": false
+    },
+    {
+      "id": "#c:is_hill",
+      "required": false
+    },
+    {
+      "id": "#c:is_jungle",
+      "required": false
+    },
+    {
+      "id": "#c:is_mountain",
+      "required": false
+    },
+    {
+      "id": "#c:is_mushroom",
+      "required": false
+    },
+    {
+      "id": "#c:is_plains",
+      "required": false
+    },
+    {
+      "id": "#c:is_plateau",
+      "required": false
+    },
+    {
+      "id": "#c:is_savanna",
+      "required": false
+    },
+    {
+      "id": "#c:is_snowy",
+      "required": false
+    },
+    {
+      "id": "#c:is_swamp",
+      "required": false
+    },
+    {
+      "id": "#c:is_taiga",
+      "required": false
+    },
+    {
+      "id": "#c:is_windswept",
+      "required": false
+    }
+  ]
+}

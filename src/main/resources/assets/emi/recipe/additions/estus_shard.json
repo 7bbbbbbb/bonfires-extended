@@ -1,0 +1,7 @@
+{
+  "type": "emi:info",
+  "stacks": [
+    "item:bonfires:estus_shard"
+  ],
+  "text": "emi.info.bonfires_ex.estus_shard"
+}

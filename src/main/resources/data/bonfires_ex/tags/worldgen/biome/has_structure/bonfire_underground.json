@@ -1,0 +1,25 @@
+{
+  "values": [
+    "#minecraft:is_nether",
+    {
+      "id": "#c:is_nether",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:deeplands",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:echoing_forest",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:overcast_columns",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:blooming_caverns",
+      "required": false
+    }
+  ]
+}

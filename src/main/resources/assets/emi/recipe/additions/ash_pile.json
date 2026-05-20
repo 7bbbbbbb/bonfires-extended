@@ -1,0 +1,7 @@
+{
+  "type": "emi:info",
+  "stacks": [
+    "item:bonfires:ash_pile"
+  ],
+  "text": "emi.info.bonfires_ex.ash_pile"
+}

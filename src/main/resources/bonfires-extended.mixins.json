@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "package": "net.x7bbbbbbb.bonfires_ex.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BedSpawnMixin",
+    "BonfireHandlerDefaultMixin",
+    "CoiledSwordFragmentItemMixin",
+    "RequestDimensionsFromServerMixin",
+    "ScreenshotUtilsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  },
+  "client": [
+    "BonfireButtonMixin",
+    "BonfireScreenMixin",
+    "CreateBonfireScreenMixin"
+  ]
+}

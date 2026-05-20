@@ -1,0 +1,22 @@
+{
+  "values": [
+    "minecraft:small_end_islands",
+    "minecraft:end_barrens",
+    {
+      "id": "enderscape:void_skies",
+      "required": false
+    },
+    {
+      "id": "enderscape:void_sky_islands",
+      "required": false
+    },
+    {
+      "id": "enderscape:void_depths",
+      "required": false
+    },
+    {
+      "id": "#aerialhell:is_aerial_hell",
+      "required": false
+    }
+  ]
+}

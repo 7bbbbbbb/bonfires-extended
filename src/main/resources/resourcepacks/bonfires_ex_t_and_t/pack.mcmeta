@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "Bonfires EX compatibility for Towns and Towers by x7bbbbbbb.",
+    "pack_format": 15,
+    "supported_formats": {
+      "min_inclusive": 15,
+      "max_inclusive": 48
+    }
+  }
+}
