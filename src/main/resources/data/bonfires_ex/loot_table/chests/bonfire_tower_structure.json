@@ -51,6 +51,21 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:obsidian",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tnt",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glass_bottle",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
           "functions": [
             {
               "add": false,
@@ -110,6 +125,22 @@
               "function": "minecraft:set_count"
             }
           ],
+          "name": "minecraft:gunpowder",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "name": "minecraft:bone",
           "weight": 30
         },
@@ -126,7 +157,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:obsidian",
+          "name": "minecraft:sand",
           "weight": 30
         },
         {
