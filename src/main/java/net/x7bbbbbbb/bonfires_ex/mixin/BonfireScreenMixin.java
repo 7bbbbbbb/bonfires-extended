@@ -31,8 +31,8 @@ public class BonfireScreenMixin {
 
             if (maxScroll > 0) {
                 long time = Util.getMeasuringTimeMs();
-                long speed = 30; // Milliseconds per pixel shift
-                long pauseDuration = 1200; // Pause time at edges in milliseconds
+                long speed = 90; // Milliseconds per pixel shift
+                long pauseDuration = 2400; // Pause time at edges in milliseconds
                 long loopTime = (maxScroll * speed * 2) + (pauseDuration * 2);
 
                 long progress = time % loopTime;
@@ -79,8 +79,8 @@ public class BonfireScreenMixin {
 
             if (maxScroll > 0) {
                 long time = Util.getMeasuringTimeMs();
-                long speed = 30; // Milliseconds per pixel movement
-                long pauseDuration = 1200; // Pause duration at both ends in milliseconds
+                long speed = 60; // Milliseconds per pixel movement
+                long pauseDuration = 1600; // Pause duration at both ends in milliseconds
                 long loopTime = (maxScroll * speed * 2) + (pauseDuration * 2);
 
                 long progress = time % loopTime;

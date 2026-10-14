@@ -23,7 +23,7 @@ public class CoiledSwordFragmentItemMixin {
             index = 0
     )
     private static Item.Settings setMaxDamage(Item.Settings settings) {
-        return settings.maxDamage(4);
+        return settings.maxDamage(6);
     }
 
     @Inject(

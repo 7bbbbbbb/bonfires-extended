@@ -6,6 +6,8 @@
     "BedSpawnMixin",
     "BonfireHandlerDefaultMixin",
     "CoiledSwordFragmentItemMixin",
+    "CreativeTabSetupMixin",
+    "LivingEntityMixin",
     "RequestDimensionsFromServerMixin",
     "ScreenshotUtilsMixin"
   ],

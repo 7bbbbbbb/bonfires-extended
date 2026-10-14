@@ -17,6 +17,7 @@ repositories {
     maven { url 'https://maven.ladysnake.org/releases' }
     maven { url 'https://maven.wispforest.io/releases/' }
     maven { url 'https://jitpack.io' }
+    maven { url = "https://maven.bawnorton.com/releases" }
 }
 
 fabricApi {
@@ -34,6 +35,7 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
     annotationProcessor modImplementation("io.wispforest:owo-lib:${project.owo_version}")
+    include(implementation(annotationProcessor("com.github.bawnorton.mixinsquared:mixinsquared-fabric:0.3.7-beta.3")))
     include modImplementation("org.ladysnake.cardinal-components-api:cardinal-components-world:${project.cca_version}")
     modImplementation "maven.modrinth:bonfires:1.2.20c-1.21.1-fabric"
     modImplementation "maven.modrinth:surveyor:egJBsDTn"

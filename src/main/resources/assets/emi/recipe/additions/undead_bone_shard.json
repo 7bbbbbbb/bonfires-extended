@@ -1,7 +1,8 @@
 {
   "type": "emi:info",
   "stacks": [
-    "item:bonfires:undead_bone_shard"
+    "item:bonfires:undead_bone_shard",
+    "item:bonfires:estus_flask"
   ],
   "text": "emi.info.bonfires_ex.undead_bone_shard"
 }

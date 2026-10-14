@@ -46,6 +46,11 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:fire_charge",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:ender_pearl",
           "weight": 3
         },
@@ -78,22 +83,6 @@
             }
           ],
           "name": "bonfires:titanite_shard",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 2,
-                "min": 1
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:fire_charge",
           "weight": 10
         },
         {
@@ -178,7 +167,27 @@
         }
       ],
       "rolls": 5
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:slow_falling"
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
   ],
-  "random_sequence": "bonfires_ex:chests/bonfire_structure"
+  "random_sequence": "bonfires_ex:chests/bonfire_tower_structure"
 }

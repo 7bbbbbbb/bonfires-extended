@@ -1,17 +1,17 @@
 {
   "placement": {
     "type": "minecraft:random_spread",
-    "salt": 78787188,
-    "separation": 18,
+    "salt": 395694018,
+    "separation": 20,
     "spacing": 30
   },
   "structures": [
     {
-      "structure": "bonfires_ex:bonfire_underground",
+      "structure": "bonfires_ex:bonfire_spiral",
       "weight": 1
     },
     {
-      "structure": "bonfires_ex:bonfire_underground_ruin",
+      "structure": "bonfires_ex:bonfire_spiral_ruin",
       "weight": 1
     }
   ]
